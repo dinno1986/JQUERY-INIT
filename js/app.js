@@ -9,3 +9,8 @@
 $('#setText').change( function(){
 	$('#needText').append( $('#setText').val() );
 });
+
+//Change la couleur de la div '#changeColor' en rouge !!! 
+$('#setColor').click( function(){
+$('#changeColor').css('background-color','red');
+});
